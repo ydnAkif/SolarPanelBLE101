@@ -1,7 +1,7 @@
 
 
 #include <Wire.h>
-#include <LiquidCrystal_I2C.h>
+#include <LiquidCrystalTr_I2C.h>
 #include <CurieBLE.h>
 
 // Define LCD parameters
