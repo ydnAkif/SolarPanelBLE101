@@ -1,5 +1,3 @@
-
-
 #include <Wire.h>
 #include <LiquidCrystalTr_I2C.h>
 #include <CurieBLE.h>
@@ -30,9 +28,6 @@ void setup() {
   Wire.begin();  // Initialize I2C communication
   lcd.begin();
   lcd.backlight();
-
-  // LED pin (optional for debugging, comment out if not used)
-  // pinMode(ledPin, OUTPUT);
 
   // Set BLE parameters
   blePeripheral.setLocalName("BLE101");
